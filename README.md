@@ -3,7 +3,7 @@
 <br>
 
 <h2>Juego de piedra papel o tijera</h2>
-Este proyecto es un juego simple de Piedra, Papel o Tijera implementado en JavaScript. El juego permite al usuario competir contra la consola en una serie de rondas y determinar quién gana más rondas.
+Este proyecto es un juego simple de Piedra, Papel o Tijera implementado en JavaScript. El juego permite al usuario competir contra la consola en una serie de 3 rondas. Y demostrar quien es el mejor!
 <br>
 <br>
 <h2>Como se realizó el juego</h2>
@@ -13,16 +13,19 @@ Se utilizó una función principal:
 - El usuario ingresa su nombre y elige entre "piedra", "papel" o "tijera" en cada ronda. 
 - La computadora selecciona una opción aleatoria y se determina el ganador de cada ronda.
 - Esto se logra utilizando un arreglo llamado "opciones" que contiene las tres posibles elecciones. La función selecciona una opción aleatoria del arreglo y la devuelve como la elección de la computadora.
-(image)
+
 <br>
 
 <h2>El sistema de rondas del juego</h2>
 Se utilizó el ciclo for. Que se utiliza para repetir un bloque de código un número específico de veces. En este caso se juegan 3 rondas.
-(image)
+
+![image](https://github.com/FernandoSatti/1-pre-entrega/blob/master/img/img-readme/for.png)
 
 - "let i = 1" Esto inicializa una variable i con el valor 1. 
 - "i <= 3" El ciclo se ejecutará mientras i sea menor o igual a 3, lo que significa que se ejecutará exactamente tres veces (una vez por cada ronda).
 - "i++" Esto incrementa el valor de i en 1 después de cada iteración del ciclo. Es decir, después de cada ronda, i aumentará en 1.
+
+
 <br>
 <br>
 
@@ -32,14 +35,16 @@ Se utilizan dos variables para llevar un registro de la puntuación: "victoriasJ
 - let victoriasJugador = 0;
 - let victoriasComputadora = 0;
 - dentro del ciclo for, se determina el ganador de cada ronda con condiciones if, else if y else.
-- "victoriasJugador++" indica que sumaremos un punto. lo mismo para la consola. 
-(image)
+- "victoriasJugador++" indica que sumaremos un punto al ganar. Lo mismo para la consola. 
+
+![image](https://github.com/FernandoSatti/1-pre-entrega/blob/master/img/img-readme/contador.png)
 
 <br>
 
 <h3>Sistema de respuesta de la consola:</h3>
 En el código podemos observar que:
-(image)
+
+![image](https://github.com/FernandoSatti/1-pre-entrega/blob/master/img/img-readme/funcion.png)
 <br>
 
 - Math.random() genera un número aleatorio entre 0  y 1.
