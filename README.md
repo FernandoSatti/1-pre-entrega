@@ -14,6 +14,8 @@ Se utilizó una función principal:
 - La computadora selecciona una opción aleatoria y se determina el ganador de cada ronda.
 - Esto se logra utilizando un arreglo llamado "opciones" que contiene las tres posibles elecciones. La función selecciona una opción aleatoria del arreglo y la devuelve como la elección de la computadora.
 
+![image](https://github.com/FernandoSatti/1-pre-entrega/blob/master/img/img-readme/funcion-principal.png)
+
 <br>
 
 <h2>El sistema de rondas del juego</h2>
@@ -54,5 +56,16 @@ En el código podemos observar que:
 - Math.floor(Math.random() * 3) redondea ese número a 0, 1 o 2.
 
 - Entonces, Math.floor(Math.random() * 3) se utiliza para seleccionar aleatoriamente una de las tres opciones ("piedra", "papel" o "tijera") para la elección de la computadora en el juego. Multiplicar por 3 es necesario porque queremos un número entero entre 0 y 2 para seleccionar índices en un arreglo con tres elementos
+<br>
 
+<h2>Links</h2>
+
+<h3>Repositorio de Github</h3>
+https://github.com/FernandoSatti/1-pre-entrega
+
+<h3>Repositorio de Github Pages</h3>
+https://fernandosatti.github.io/1-pre-entrega/index.html
+
+<h3>Repositorio de Netlify</h3>
+https://piedrapapelotijeracoder.netlify.app (Recomiendo entrar desde aca!)
 
